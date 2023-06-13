@@ -47,7 +47,14 @@
 
   p {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: rgb(165, 164, 164);
+    font-size: 0.7rem;
+
+    a{
+      cursor: pointer;
+      text-decoration: none;
+      color: rgb(199, 175, 206);
+    }
   }
 }
 
