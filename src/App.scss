@@ -36,28 +36,6 @@
   }
 }
 
-.copyright {
-  width: 100%;
-  padding: 2rem 0 0;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-
-  p {
-    text-transform: uppercase;
-    color: rgb(165, 164, 164);
-    font-size: 0.7rem;
-
-    a{
-      cursor: pointer;
-      text-decoration: none;
-      color: rgb(199, 175, 206);
-    }
-  }
-}
-
 .head-text {
   font-size: 2.75rem;
   font-weight: 800;
@@ -105,6 +83,9 @@
 }
 
 .app__social {
+  position: fixed;
+  left: 0;
+  top: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -156,6 +137,9 @@
 }
 
 .app__navigation {
+  position: fixed;
+  right: 0;
+  top: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

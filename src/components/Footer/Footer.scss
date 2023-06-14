@@ -1,0 +1,26 @@
+.copyright {
+  width: 100%;
+  padding: 1rem  0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    text-transform: uppercase;
+    color: rgb(165, 164, 164);
+    font-size: 0.7rem;
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #313BAC;
+
+      &:hover {
+        text-decoration: underline;
+        color: rgb(182, 122, 201);;
+      }
+    }
+  }
+}
